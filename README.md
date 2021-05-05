@@ -4,6 +4,7 @@
 
 ### [Hugging Face Transformer Examples](https://github.com/huggingface/transformers)
 
+* [Write with Transformers](https://transformer.huggingface.co/)
 * [Masked word completion with BERT](https://huggingface.co/bert-base-uncased?text=Paris+is+the+%5BMASK%5D+of+France)
 * [Text generation with GPT-2](https://huggingface.co/gpt2?text=A+long+time+ago%2C+)
 * [Natural Language Inference with RoBERTa](https://huggingface.co/roberta-large-mnli?text=The+dog+was+lost.+Nobody+lost+any+animal)
