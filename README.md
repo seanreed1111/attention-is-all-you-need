@@ -7,7 +7,7 @@
 * [transformer.py](parts-of-a-transformer/transformer.py): Defines a tf.keras.Model: `Transformer`.
 * [embedding_layer.py](parts-of-a-transformer/embedding_layer.py): Contains the layer that calculates the embeddings. The embedding weights are also used to calculate the pre-softmax probabilities from the decoder output.
 * [attention_layer.py](parts-of-a-transformer/attention_layer.py): Defines the multi-headed and self attention layers that are used in the encoder/decoder stacks.
-  * ![Attention in machine translation]((images/attention_sentence.png)) 
+  * ![Attention in machine translation](images/attention_sentence.png)
   * You can see how the model paid attention correctly when outputing European Economic Area. In French, the order of these words is reversed (européenne économique zone) as compared to English. Every other word in the sentence is in similar order.]
 * [ffn_layer.py](parts-of-a-transformer/ffn_layer.py): Defines the feedforward network that is used in the encoder/decoder stacks. The network is composed of 2 fully connected layers.
 
