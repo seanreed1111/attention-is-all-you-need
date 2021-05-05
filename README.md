@@ -24,5 +24,5 @@
 * [self-attention-mechanisms-in-natural-language-processing](https://www.alibabacloud.com/blog/self-attention-mechanisms-in-natural-language-processing_593968)
 * [Transformer Neural Nets - Wolfram Explanation](https://www.wolfram.com/language/12/neural-network-framework/use-transformer-neural-nets.html?product=mathematica)
 * [Self Attention in NLP](https://www.geeksforgeeks.org/self-attention-in-nlp/)
-* 
+* [The Annotated Transformer (in PyTorch)](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 * [What does einsum do?](https://www.tensorflow.org/api_docs/python/tf/einsum)
