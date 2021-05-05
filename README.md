@@ -1,16 +1,18 @@
-* [TensorFlow official transformer implementation](https://github.com/tensorflow/models/tree/master/official/nlp/transformer)
+### Transformers using TensorFlow 2
+
+* [GitHub Repo with TensorFlow official Transformer Implementation](https://github.com/tensorflow/models/tree/master/official/nlp/transformer)
 * [Paper: Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-### Model Definition
+* 
+### Key Transform Model Components in Python
 * [transformer.py](parts-of-a-transformer/transformer.py): Defines a tf.keras.Model: `Transformer`.
 * [embedding_layer.py](parts-of-a-transformer/embedding_layer.py): Contains the layer that calculates the embeddings. The embedding weights are also used to calculate the pre-softmax probabilities from the decoder output.
 * [attention_layer.py](parts-of-a-transformer/attention_layer.py): Defines the multi-headed and self attention layers that are used in the encoder/decoder stacks.
 * [ffn_layer.py](parts-of-a-transformer/ffn_layer.py): Defines the feedforward network that is used in the encoder/decoder stacks. The network is composed of 2 fully connected layers.
 
 
+### Hugging Face Transformer Examples
+
 * [HuggingFace Website](https://huggingface.co/)
-
-### [Hugging Face Transformer Examples](https://github.com/huggingface/transformers)
-
 * [Write with Transformers](https://transformer.huggingface.co/)
 * [Masked word completion with BERT](https://huggingface.co/bert-base-uncased?text=Paris+is+the+%5BMASK%5D+of+France)
 * [Text generation with GPT-2](https://huggingface.co/gpt2?text=A+long+time+ago%2C+)
